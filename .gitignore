@@ -1,0 +1,18 @@
+# 忽略編譯過程中的產物
+*.log
+*.class
+*.bak
+
+# 忽略 MacOS 系統生成的文件
+.DS_Store
+
+# 忽略 Node.js 依賴文件
+node_modules/
+
+# 忽略環境變數文件
+.env
+
+# 忽略編譯過程產生的目錄和檔案
+build/
+dist/
+*.swp
